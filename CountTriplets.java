@@ -79,6 +79,7 @@ public class CountTriplets {
         // Using first method
         System.out.println(solution.countTriplets(arr1)); // Output: 4
         System.out.println(solution.countTriplets(arr2)); // Output: 10
+        
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
         // Using second method

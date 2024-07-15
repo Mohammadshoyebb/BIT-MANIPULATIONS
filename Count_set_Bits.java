@@ -1,14 +1,7 @@
 /**
  * The Count_set_Bits class calculates the number of set bits (bits with value 1) in an integer.
  */
-public class Count_set_Bits {
-    
-    /**
-     * Calculates the number of set bits in the given integer.
-     * 
-     * @param n The integer for which to count set bits.
-     * @return The count of set bits in the integer.
-     */
+public class Count_set_Bits {  
     public static int countSetBits(int n) {
         int count = 0;
         while (n > 0) {
@@ -21,12 +14,6 @@ public class Count_set_Bits {
         }
         return count;
     }
-
-    /**
-     * Main method to test the countSetBits function with a sample input.
-     * 
-     * @param args Command line arguments (unused).
-     */
     public static void main(String[] args) {
         int n = 16;
         System.out.println("Number of set bits in " + n + ": " + countSetBits(n));  // Output: 1
