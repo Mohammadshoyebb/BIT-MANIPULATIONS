@@ -119,7 +119,8 @@ public class XORQueriesofaSubarray {
      * Uncomment the approach you want to test.
      */
     public static void main(String[] args) {
-        XORQueriesofaSubarray solution = new XORQueriesofaSubarray();
+        XORQueriesofaSubarray solution = new XORQueriesofaSubarraya.java
+        ();
         
         // Test case: Example input from the problem description
         int[] arr = {1, 3, 4, 8};
